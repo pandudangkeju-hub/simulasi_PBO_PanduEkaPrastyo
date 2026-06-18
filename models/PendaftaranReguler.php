@@ -26,8 +26,8 @@ class PendaftaranReguler extends Pendaftaran {
         return $this->biaya_pendaftaran_dasar; // Tarif standar tanpa tambahan
     }
 
-    public function tampilkanInfoJalur() {
-        return "Prodi: " . $this->pilihan_prodi . " (" . $this->lokasi_kampus . ")";
-    }
+    public function hitungTotalBiaya() {
+    return $this->biaya_pendaftaran_dasar;
+
 }
 ?>
